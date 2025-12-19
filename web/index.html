@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Колесо фортуны</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+
+<h2>🎡 Колесо фортуны</h2>
+
+
+<input id="promoInput" placeholder="Введите промокод">
+<button id="checkPromoBtn">Проверить промокод</button>
+
+
+<div class="wheel-wrapper">
+	<div class="pointer">▼</div>
+	<canvas id="wheel" width="300" height="300"></canvas>
+</div>
+
+
+<button id="spinBtn" disabled>Крутить колесо</button>
+<p id="result"></p>
+
+
+<script src="/static/script.js"></script>
+</body>
+</html>
